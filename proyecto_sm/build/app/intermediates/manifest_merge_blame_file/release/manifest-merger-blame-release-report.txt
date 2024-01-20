@@ -1,0 +1,283 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.proyecto_sm"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+8-->C:\Users\PC\StudioProjects\proyecto_sm\android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->C:\Users\PC\StudioProjects\proyecto_sm\android\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->[com.google.firebase:firebase-auth:22.2.0] C:\Users\PC\.gradle\caches\transforms-3\1d7e6f8f092c7897388fbdcd20e6b5e7\transformed\jetified-firebase-auth-22.2.0\AndroidManifest.xml:25:5-67
+11-->[com.google.firebase:firebase-auth:22.2.0] C:\Users\PC\.gradle\caches\transforms-3\1d7e6f8f092c7897388fbdcd20e6b5e7\transformed\jetified-firebase-auth-22.2.0\AndroidManifest.xml:25:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->[com.google.firebase:firebase-auth:22.2.0] C:\Users\PC\.gradle\caches\transforms-3\1d7e6f8f092c7897388fbdcd20e6b5e7\transformed\jetified-firebase-auth-22.2.0\AndroidManifest.xml:26:5-79
+12-->[com.google.firebase:firebase-auth:22.2.0] C:\Users\PC\.gradle\caches\transforms-3\1d7e6f8f092c7897388fbdcd20e6b5e7\transformed\jetified-firebase-auth-22.2.0\AndroidManifest.xml:26:22-76
+13
+14    <permission
+14-->[androidx.core:core:1.10.1] C:\Users\PC\.gradle\caches\transforms-3\18a7f5e1e6c11d26de9342f92785d7ea\transformed\core-1.10.1\AndroidManifest.xml:22:5-24:47
+15        android:name="com.example.proyecto_sm.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+15-->[androidx.core:core:1.10.1] C:\Users\PC\.gradle\caches\transforms-3\18a7f5e1e6c11d26de9342f92785d7ea\transformed\core-1.10.1\AndroidManifest.xml:23:9-81
+16        android:protectionLevel="signature" />
+16-->[androidx.core:core:1.10.1] C:\Users\PC\.gradle\caches\transforms-3\18a7f5e1e6c11d26de9342f92785d7ea\transformed\core-1.10.1\AndroidManifest.xml:24:9-44
+17
+18    <uses-permission android:name="com.example.proyecto_sm.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+18-->[androidx.core:core:1.10.1] C:\Users\PC\.gradle\caches\transforms-3\18a7f5e1e6c11d26de9342f92785d7ea\transformed\core-1.10.1\AndroidManifest.xml:26:5-97
+18-->[androidx.core:core:1.10.1] C:\Users\PC\.gradle\caches\transforms-3\18a7f5e1e6c11d26de9342f92785d7ea\transformed\core-1.10.1\AndroidManifest.xml:26:22-94
+19
+20    <application
+21        android:name="android.app.Application"
+21-->C:\Users\PC\StudioProjects\proyecto_sm\android\app\src\main\AndroidManifest.xml:4:9-42
+22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+22-->[androidx.core:core:1.10.1] C:\Users\PC\.gradle\caches\transforms-3\18a7f5e1e6c11d26de9342f92785d7ea\transformed\core-1.10.1\AndroidManifest.xml:28:18-86
+23        android:extractNativeLibs="false"
+24        android:icon="@mipmap/ic_launcher"
+24-->C:\Users\PC\StudioProjects\proyecto_sm\android\app\src\main\AndroidManifest.xml:5:9-43
+25        android:label="proyecto_sm" >
+25-->C:\Users\PC\StudioProjects\proyecto_sm\android\app\src\main\AndroidManifest.xml:3:9-36
+26        <activity
+26-->C:\Users\PC\StudioProjects\proyecto_sm\android\app\src\main\AndroidManifest.xml:6:9-26:20
+27            android:name="com.example.proyecto_sm.MainActivity"
+27-->C:\Users\PC\StudioProjects\proyecto_sm\android\app\src\main\AndroidManifest.xml:7:13-41
+28            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+28-->C:\Users\PC\StudioProjects\proyecto_sm\android\app\src\main\AndroidManifest.xml:11:13-163
+29            android:exported="true"
+29-->C:\Users\PC\StudioProjects\proyecto_sm\android\app\src\main\AndroidManifest.xml:8:13-36
+30            android:hardwareAccelerated="true"
+30-->C:\Users\PC\StudioProjects\proyecto_sm\android\app\src\main\AndroidManifest.xml:12:13-47
+31            android:launchMode="singleTop"
+31-->C:\Users\PC\StudioProjects\proyecto_sm\android\app\src\main\AndroidManifest.xml:9:13-43
+32            android:theme="@style/LaunchTheme"
+32-->C:\Users\PC\StudioProjects\proyecto_sm\android\app\src\main\AndroidManifest.xml:10:13-47
+33            android:windowSoftInputMode="adjustResize" >
+33-->C:\Users\PC\StudioProjects\proyecto_sm\android\app\src\main\AndroidManifest.xml:13:13-55
+34
+35            <!--
+36                 Specifies an Android theme to apply to this Activity as soon as
+37                 the Android process has started. This theme is visible to the user
+38                 while the Flutter UI initializes. After that, this theme continues
+39                 to determine the Window background behind the Flutter UI.
+40            -->
+41            <meta-data
+41-->C:\Users\PC\StudioProjects\proyecto_sm\android\app\src\main\AndroidManifest.xml:18:13-21:17
+42                android:name="io.flutter.embedding.android.NormalTheme"
+42-->C:\Users\PC\StudioProjects\proyecto_sm\android\app\src\main\AndroidManifest.xml:19:15-70
+43                android:resource="@style/NormalTheme" />
+43-->C:\Users\PC\StudioProjects\proyecto_sm\android\app\src\main\AndroidManifest.xml:20:15-52
+44
+45            <intent-filter>
+45-->C:\Users\PC\StudioProjects\proyecto_sm\android\app\src\main\AndroidManifest.xml:22:13-25:29
+46                <action android:name="android.intent.action.MAIN" />
+46-->C:\Users\PC\StudioProjects\proyecto_sm\android\app\src\main\AndroidManifest.xml:23:17-68
+46-->C:\Users\PC\StudioProjects\proyecto_sm\android\app\src\main\AndroidManifest.xml:23:25-66
+47
+48                <category android:name="android.intent.category.LAUNCHER" />
+48-->C:\Users\PC\StudioProjects\proyecto_sm\android\app\src\main\AndroidManifest.xml:24:17-76
+48-->C:\Users\PC\StudioProjects\proyecto_sm\android\app\src\main\AndroidManifest.xml:24:27-74
+49            </intent-filter>
+50        </activity>
+51        <!--
+52             Don't delete the meta-data below.
+53             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+54        -->
+55        <meta-data
+55-->C:\Users\PC\StudioProjects\proyecto_sm\android\app\src\main\AndroidManifest.xml:29:9-31:33
+56            android:name="flutterEmbedding"
+56-->C:\Users\PC\StudioProjects\proyecto_sm\android\app\src\main\AndroidManifest.xml:30:13-44
+57            android:value="2" />
+57-->C:\Users\PC\StudioProjects\proyecto_sm\android\app\src\main\AndroidManifest.xml:31:13-30
+58
+59        <service
+59-->[:firebase_auth] C:\Users\PC\StudioProjects\proyecto_sm\build\firebase_auth\intermediates\merged_manifest\release\AndroidManifest.xml:10:9-14:19
+60            android:name="com.google.firebase.components.ComponentDiscoveryService"
+60-->[:firebase_auth] C:\Users\PC\StudioProjects\proyecto_sm\build\firebase_auth\intermediates\merged_manifest\release\AndroidManifest.xml:10:18-89
+61            android:directBootAware="true"
+61-->[com.google.firebase:firebase-common:20.4.2] C:\Users\PC\.gradle\caches\transforms-3\0f3b748e3e0116b10da63b5db6c97f3d\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:32:13-43
+62            android:exported="false" >
+62-->[com.google.firebase:firebase-auth:22.2.0] C:\Users\PC\.gradle\caches\transforms-3\1d7e6f8f092c7897388fbdcd20e6b5e7\transformed\jetified-firebase-auth-22.2.0\AndroidManifest.xml:68:13-37
+63            <meta-data
+63-->[:firebase_auth] C:\Users\PC\StudioProjects\proyecto_sm\build\firebase_auth\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-13:85
+64                android:name="com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar"
+64-->[:firebase_auth] C:\Users\PC\StudioProjects\proyecto_sm\build\firebase_auth\intermediates\merged_manifest\release\AndroidManifest.xml:12:17-124
+65                android:value="com.google.firebase.components.ComponentRegistrar" />
+65-->[:firebase_auth] C:\Users\PC\StudioProjects\proyecto_sm\build\firebase_auth\intermediates\merged_manifest\release\AndroidManifest.xml:13:17-82
+66            <meta-data
+66-->[:cloud_firestore] C:\Users\PC\StudioProjects\proyecto_sm\build\cloud_firestore\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-13:85
+67                android:name="com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar"
+67-->[:cloud_firestore] C:\Users\PC\StudioProjects\proyecto_sm\build\cloud_firestore\intermediates\merged_manifest\release\AndroidManifest.xml:12:17-134
+68                android:value="com.google.firebase.components.ComponentRegistrar" />
+68-->[:cloud_firestore] C:\Users\PC\StudioProjects\proyecto_sm\build\cloud_firestore\intermediates\merged_manifest\release\AndroidManifest.xml:13:17-82
+69            <meta-data
+69-->[:firebase_core] C:\Users\PC\StudioProjects\proyecto_sm\build\firebase_core\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-13:85
+70                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+70-->[:firebase_core] C:\Users\PC\StudioProjects\proyecto_sm\build\firebase_core\intermediates\merged_manifest\release\AndroidManifest.xml:12:17-124
+71                android:value="com.google.firebase.components.ComponentRegistrar" />
+71-->[:firebase_core] C:\Users\PC\StudioProjects\proyecto_sm\build\firebase_core\intermediates\merged_manifest\release\AndroidManifest.xml:13:17-82
+72            <meta-data
+72-->[com.google.firebase:firebase-auth:22.2.0] C:\Users\PC\.gradle\caches\transforms-3\1d7e6f8f092c7897388fbdcd20e6b5e7\transformed\jetified-firebase-auth-22.2.0\AndroidManifest.xml:69:13-71:85
+73                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+73-->[com.google.firebase:firebase-auth:22.2.0] C:\Users\PC\.gradle\caches\transforms-3\1d7e6f8f092c7897388fbdcd20e6b5e7\transformed\jetified-firebase-auth-22.2.0\AndroidManifest.xml:70:17-109
+74                android:value="com.google.firebase.components.ComponentRegistrar" />
+74-->[com.google.firebase:firebase-auth:22.2.0] C:\Users\PC\.gradle\caches\transforms-3\1d7e6f8f092c7897388fbdcd20e6b5e7\transformed\jetified-firebase-auth-22.2.0\AndroidManifest.xml:71:17-82
+75            <meta-data
+75-->[com.google.firebase:firebase-firestore:24.9.1] C:\Users\PC\.gradle\caches\transforms-3\b030a29409bfeef62325edc22142a9d1\transformed\jetified-firebase-firestore-24.9.1\AndroidManifest.xml:17:13-19:85
+76                android:name="com.google.firebase.components:com.google.firebase.firestore.FirebaseFirestoreKtxRegistrar"
+76-->[com.google.firebase:firebase-firestore:24.9.1] C:\Users\PC\.gradle\caches\transforms-3\b030a29409bfeef62325edc22142a9d1\transformed\jetified-firebase-firestore-24.9.1\AndroidManifest.xml:18:17-122
+77                android:value="com.google.firebase.components.ComponentRegistrar" />
+77-->[com.google.firebase:firebase-firestore:24.9.1] C:\Users\PC\.gradle\caches\transforms-3\b030a29409bfeef62325edc22142a9d1\transformed\jetified-firebase-firestore-24.9.1\AndroidManifest.xml:19:17-82
+78            <meta-data
+78-->[com.google.firebase:firebase-firestore:24.9.1] C:\Users\PC\.gradle\caches\transforms-3\b030a29409bfeef62325edc22142a9d1\transformed\jetified-firebase-firestore-24.9.1\AndroidManifest.xml:20:13-22:85
+79                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+79-->[com.google.firebase:firebase-firestore:24.9.1] C:\Users\PC\.gradle\caches\transforms-3\b030a29409bfeef62325edc22142a9d1\transformed\jetified-firebase-firestore-24.9.1\AndroidManifest.xml:21:17-111
+80                android:value="com.google.firebase.components.ComponentRegistrar" />
+80-->[com.google.firebase:firebase-firestore:24.9.1] C:\Users\PC\.gradle\caches\transforms-3\b030a29409bfeef62325edc22142a9d1\transformed\jetified-firebase-firestore-24.9.1\AndroidManifest.xml:22:17-82
+81            <meta-data
+81-->[com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\PC\.gradle\caches\transforms-3\441a45b1ca230e45a2a1aa6b941bdaf2\transformed\jetified-firebase-common-ktx-20.4.2\AndroidManifest.xml:12:13-14:85
+82                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
+82-->[com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\PC\.gradle\caches\transforms-3\441a45b1ca230e45a2a1aa6b941bdaf2\transformed\jetified-firebase-common-ktx-20.4.2\AndroidManifest.xml:13:17-116
+83                android:value="com.google.firebase.components.ComponentRegistrar" />
+83-->[com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\PC\.gradle\caches\transforms-3\441a45b1ca230e45a2a1aa6b941bdaf2\transformed\jetified-firebase-common-ktx-20.4.2\AndroidManifest.xml:14:17-82
+84            <meta-data
+84-->[com.google.firebase:firebase-common:20.4.2] C:\Users\PC\.gradle\caches\transforms-3\0f3b748e3e0116b10da63b5db6c97f3d\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:35:13-37:85
+85                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
+85-->[com.google.firebase:firebase-common:20.4.2] C:\Users\PC\.gradle\caches\transforms-3\0f3b748e3e0116b10da63b5db6c97f3d\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:36:17-109
+86                android:value="com.google.firebase.components.ComponentRegistrar" />
+86-->[com.google.firebase:firebase-common:20.4.2] C:\Users\PC\.gradle\caches\transforms-3\0f3b748e3e0116b10da63b5db6c97f3d\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:37:17-82
+87        </service>
+88
+89        <activity
+89-->[:url_launcher_android] C:\Users\PC\StudioProjects\proyecto_sm\build\url_launcher_android\intermediates\merged_manifest\release\AndroidManifest.xml:10:9-13:74
+90            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+90-->[:url_launcher_android] C:\Users\PC\StudioProjects\proyecto_sm\build\url_launcher_android\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-74
+91            android:exported="false"
+91-->[:url_launcher_android] C:\Users\PC\StudioProjects\proyecto_sm\build\url_launcher_android\intermediates\merged_manifest\release\AndroidManifest.xml:12:13-37
+92            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+92-->[:url_launcher_android] C:\Users\PC\StudioProjects\proyecto_sm\build\url_launcher_android\intermediates\merged_manifest\release\AndroidManifest.xml:13:13-71
+93        <activity
+93-->[com.google.firebase:firebase-auth:22.2.0] C:\Users\PC\.gradle\caches\transforms-3\1d7e6f8f092c7897388fbdcd20e6b5e7\transformed\jetified-firebase-auth-22.2.0\AndroidManifest.xml:29:9-46:20
+94            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+94-->[com.google.firebase:firebase-auth:22.2.0] C:\Users\PC\.gradle\caches\transforms-3\1d7e6f8f092c7897388fbdcd20e6b5e7\transformed\jetified-firebase-auth-22.2.0\AndroidManifest.xml:30:13-80
+95            android:excludeFromRecents="true"
+95-->[com.google.firebase:firebase-auth:22.2.0] C:\Users\PC\.gradle\caches\transforms-3\1d7e6f8f092c7897388fbdcd20e6b5e7\transformed\jetified-firebase-auth-22.2.0\AndroidManifest.xml:31:13-46
+96            android:exported="true"
+96-->[com.google.firebase:firebase-auth:22.2.0] C:\Users\PC\.gradle\caches\transforms-3\1d7e6f8f092c7897388fbdcd20e6b5e7\transformed\jetified-firebase-auth-22.2.0\AndroidManifest.xml:32:13-36
+97            android:launchMode="singleTask"
+97-->[com.google.firebase:firebase-auth:22.2.0] C:\Users\PC\.gradle\caches\transforms-3\1d7e6f8f092c7897388fbdcd20e6b5e7\transformed\jetified-firebase-auth-22.2.0\AndroidManifest.xml:33:13-44
+98            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+98-->[com.google.firebase:firebase-auth:22.2.0] C:\Users\PC\.gradle\caches\transforms-3\1d7e6f8f092c7897388fbdcd20e6b5e7\transformed\jetified-firebase-auth-22.2.0\AndroidManifest.xml:34:13-72
+99            <intent-filter>
+99-->[com.google.firebase:firebase-auth:22.2.0] C:\Users\PC\.gradle\caches\transforms-3\1d7e6f8f092c7897388fbdcd20e6b5e7\transformed\jetified-firebase-auth-22.2.0\AndroidManifest.xml:35:13-45:29
+100                <action android:name="android.intent.action.VIEW" />
+100-->[com.google.firebase:firebase-auth:22.2.0] C:\Users\PC\.gradle\caches\transforms-3\1d7e6f8f092c7897388fbdcd20e6b5e7\transformed\jetified-firebase-auth-22.2.0\AndroidManifest.xml:36:17-69
+100-->[com.google.firebase:firebase-auth:22.2.0] C:\Users\PC\.gradle\caches\transforms-3\1d7e6f8f092c7897388fbdcd20e6b5e7\transformed\jetified-firebase-auth-22.2.0\AndroidManifest.xml:36:25-66
+101
+102                <category android:name="android.intent.category.DEFAULT" />
+102-->[com.google.firebase:firebase-auth:22.2.0] C:\Users\PC\.gradle\caches\transforms-3\1d7e6f8f092c7897388fbdcd20e6b5e7\transformed\jetified-firebase-auth-22.2.0\AndroidManifest.xml:38:17-76
+102-->[com.google.firebase:firebase-auth:22.2.0] C:\Users\PC\.gradle\caches\transforms-3\1d7e6f8f092c7897388fbdcd20e6b5e7\transformed\jetified-firebase-auth-22.2.0\AndroidManifest.xml:38:27-73
+103                <category android:name="android.intent.category.BROWSABLE" />
+103-->[com.google.firebase:firebase-auth:22.2.0] C:\Users\PC\.gradle\caches\transforms-3\1d7e6f8f092c7897388fbdcd20e6b5e7\transformed\jetified-firebase-auth-22.2.0\AndroidManifest.xml:39:17-78
+103-->[com.google.firebase:firebase-auth:22.2.0] C:\Users\PC\.gradle\caches\transforms-3\1d7e6f8f092c7897388fbdcd20e6b5e7\transformed\jetified-firebase-auth-22.2.0\AndroidManifest.xml:39:27-75
+104
+105                <data
+105-->[com.google.firebase:firebase-auth:22.2.0] C:\Users\PC\.gradle\caches\transforms-3\1d7e6f8f092c7897388fbdcd20e6b5e7\transformed\jetified-firebase-auth-22.2.0\AndroidManifest.xml:41:17-44:51
+106                    android:host="firebase.auth"
+106-->[com.google.firebase:firebase-auth:22.2.0] C:\Users\PC\.gradle\caches\transforms-3\1d7e6f8f092c7897388fbdcd20e6b5e7\transformed\jetified-firebase-auth-22.2.0\AndroidManifest.xml:42:21-49
+107                    android:path="/"
+107-->[com.google.firebase:firebase-auth:22.2.0] C:\Users\PC\.gradle\caches\transforms-3\1d7e6f8f092c7897388fbdcd20e6b5e7\transformed\jetified-firebase-auth-22.2.0\AndroidManifest.xml:43:21-37
+108                    android:scheme="genericidp" />
+108-->[com.google.firebase:firebase-auth:22.2.0] C:\Users\PC\.gradle\caches\transforms-3\1d7e6f8f092c7897388fbdcd20e6b5e7\transformed\jetified-firebase-auth-22.2.0\AndroidManifest.xml:44:21-48
+109            </intent-filter>
+110        </activity>
+111        <activity
+111-->[com.google.firebase:firebase-auth:22.2.0] C:\Users\PC\.gradle\caches\transforms-3\1d7e6f8f092c7897388fbdcd20e6b5e7\transformed\jetified-firebase-auth-22.2.0\AndroidManifest.xml:47:9-64:20
+112            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+112-->[com.google.firebase:firebase-auth:22.2.0] C:\Users\PC\.gradle\caches\transforms-3\1d7e6f8f092c7897388fbdcd20e6b5e7\transformed\jetified-firebase-auth-22.2.0\AndroidManifest.xml:48:13-79
+113            android:excludeFromRecents="true"
+113-->[com.google.firebase:firebase-auth:22.2.0] C:\Users\PC\.gradle\caches\transforms-3\1d7e6f8f092c7897388fbdcd20e6b5e7\transformed\jetified-firebase-auth-22.2.0\AndroidManifest.xml:49:13-46
+114            android:exported="true"
+114-->[com.google.firebase:firebase-auth:22.2.0] C:\Users\PC\.gradle\caches\transforms-3\1d7e6f8f092c7897388fbdcd20e6b5e7\transformed\jetified-firebase-auth-22.2.0\AndroidManifest.xml:50:13-36
+115            android:launchMode="singleTask"
+115-->[com.google.firebase:firebase-auth:22.2.0] C:\Users\PC\.gradle\caches\transforms-3\1d7e6f8f092c7897388fbdcd20e6b5e7\transformed\jetified-firebase-auth-22.2.0\AndroidManifest.xml:51:13-44
+116            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+116-->[com.google.firebase:firebase-auth:22.2.0] C:\Users\PC\.gradle\caches\transforms-3\1d7e6f8f092c7897388fbdcd20e6b5e7\transformed\jetified-firebase-auth-22.2.0\AndroidManifest.xml:52:13-72
+117            <intent-filter>
+117-->[com.google.firebase:firebase-auth:22.2.0] C:\Users\PC\.gradle\caches\transforms-3\1d7e6f8f092c7897388fbdcd20e6b5e7\transformed\jetified-firebase-auth-22.2.0\AndroidManifest.xml:53:13-63:29
+118                <action android:name="android.intent.action.VIEW" />
+118-->[com.google.firebase:firebase-auth:22.2.0] C:\Users\PC\.gradle\caches\transforms-3\1d7e6f8f092c7897388fbdcd20e6b5e7\transformed\jetified-firebase-auth-22.2.0\AndroidManifest.xml:36:17-69
+118-->[com.google.firebase:firebase-auth:22.2.0] C:\Users\PC\.gradle\caches\transforms-3\1d7e6f8f092c7897388fbdcd20e6b5e7\transformed\jetified-firebase-auth-22.2.0\AndroidManifest.xml:36:25-66
+119
+120                <category android:name="android.intent.category.DEFAULT" />
+120-->[com.google.firebase:firebase-auth:22.2.0] C:\Users\PC\.gradle\caches\transforms-3\1d7e6f8f092c7897388fbdcd20e6b5e7\transformed\jetified-firebase-auth-22.2.0\AndroidManifest.xml:38:17-76
+120-->[com.google.firebase:firebase-auth:22.2.0] C:\Users\PC\.gradle\caches\transforms-3\1d7e6f8f092c7897388fbdcd20e6b5e7\transformed\jetified-firebase-auth-22.2.0\AndroidManifest.xml:38:27-73
+121                <category android:name="android.intent.category.BROWSABLE" />
+121-->[com.google.firebase:firebase-auth:22.2.0] C:\Users\PC\.gradle\caches\transforms-3\1d7e6f8f092c7897388fbdcd20e6b5e7\transformed\jetified-firebase-auth-22.2.0\AndroidManifest.xml:39:17-78
+121-->[com.google.firebase:firebase-auth:22.2.0] C:\Users\PC\.gradle\caches\transforms-3\1d7e6f8f092c7897388fbdcd20e6b5e7\transformed\jetified-firebase-auth-22.2.0\AndroidManifest.xml:39:27-75
+122
+123                <data
+123-->[com.google.firebase:firebase-auth:22.2.0] C:\Users\PC\.gradle\caches\transforms-3\1d7e6f8f092c7897388fbdcd20e6b5e7\transformed\jetified-firebase-auth-22.2.0\AndroidManifest.xml:41:17-44:51
+124                    android:host="firebase.auth"
+124-->[com.google.firebase:firebase-auth:22.2.0] C:\Users\PC\.gradle\caches\transforms-3\1d7e6f8f092c7897388fbdcd20e6b5e7\transformed\jetified-firebase-auth-22.2.0\AndroidManifest.xml:42:21-49
+125                    android:path="/"
+125-->[com.google.firebase:firebase-auth:22.2.0] C:\Users\PC\.gradle\caches\transforms-3\1d7e6f8f092c7897388fbdcd20e6b5e7\transformed\jetified-firebase-auth-22.2.0\AndroidManifest.xml:43:21-37
+126                    android:scheme="recaptcha" />
+126-->[com.google.firebase:firebase-auth:22.2.0] C:\Users\PC\.gradle\caches\transforms-3\1d7e6f8f092c7897388fbdcd20e6b5e7\transformed\jetified-firebase-auth-22.2.0\AndroidManifest.xml:44:21-48
+127            </intent-filter>
+128        </activity>
+129
+130        <provider
+130-->[com.google.firebase:firebase-common:20.4.2] C:\Users\PC\.gradle\caches\transforms-3\0f3b748e3e0116b10da63b5db6c97f3d\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:23:9-28:39
+131            android:name="com.google.firebase.provider.FirebaseInitProvider"
+131-->[com.google.firebase:firebase-common:20.4.2] C:\Users\PC\.gradle\caches\transforms-3\0f3b748e3e0116b10da63b5db6c97f3d\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:24:13-77
+132            android:authorities="com.example.proyecto_sm.firebaseinitprovider"
+132-->[com.google.firebase:firebase-common:20.4.2] C:\Users\PC\.gradle\caches\transforms-3\0f3b748e3e0116b10da63b5db6c97f3d\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:25:13-72
+133            android:directBootAware="true"
+133-->[com.google.firebase:firebase-common:20.4.2] C:\Users\PC\.gradle\caches\transforms-3\0f3b748e3e0116b10da63b5db6c97f3d\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:26:13-43
+134            android:exported="false"
+134-->[com.google.firebase:firebase-common:20.4.2] C:\Users\PC\.gradle\caches\transforms-3\0f3b748e3e0116b10da63b5db6c97f3d\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:27:13-37
+135            android:initOrder="100" />
+135-->[com.google.firebase:firebase-common:20.4.2] C:\Users\PC\.gradle\caches\transforms-3\0f3b748e3e0116b10da63b5db6c97f3d\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:28:13-36
+136
+137        <uses-library
+137-->[androidx.window:window:1.0.0-beta04] C:\Users\PC\.gradle\caches\transforms-3\2f632d8dec5aedcc344894ac2d746d3d\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+138            android:name="androidx.window.extensions"
+138-->[androidx.window:window:1.0.0-beta04] C:\Users\PC\.gradle\caches\transforms-3\2f632d8dec5aedcc344894ac2d746d3d\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+139            android:required="false" />
+139-->[androidx.window:window:1.0.0-beta04] C:\Users\PC\.gradle\caches\transforms-3\2f632d8dec5aedcc344894ac2d746d3d\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+140        <uses-library
+140-->[androidx.window:window:1.0.0-beta04] C:\Users\PC\.gradle\caches\transforms-3\2f632d8dec5aedcc344894ac2d746d3d\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+141            android:name="androidx.window.sidecar"
+141-->[androidx.window:window:1.0.0-beta04] C:\Users\PC\.gradle\caches\transforms-3\2f632d8dec5aedcc344894ac2d746d3d\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+142            android:required="false" />
+142-->[androidx.window:window:1.0.0-beta04] C:\Users\PC\.gradle\caches\transforms-3\2f632d8dec5aedcc344894ac2d746d3d\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+143
+144        <activity
+144-->[com.google.android.gms:play-services-base:18.2.0] C:\Users\PC\.gradle\caches\transforms-3\2560936afab66f1109ad743fa536a828\transformed\jetified-play-services-base-18.2.0\AndroidManifest.xml:20:9-22:45
+145            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+145-->[com.google.android.gms:play-services-base:18.2.0] C:\Users\PC\.gradle\caches\transforms-3\2560936afab66f1109ad743fa536a828\transformed\jetified-play-services-base-18.2.0\AndroidManifest.xml:20:19-85
+146            android:exported="false"
+146-->[com.google.android.gms:play-services-base:18.2.0] C:\Users\PC\.gradle\caches\transforms-3\2560936afab66f1109ad743fa536a828\transformed\jetified-play-services-base-18.2.0\AndroidManifest.xml:22:19-43
+147            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+147-->[com.google.android.gms:play-services-base:18.2.0] C:\Users\PC\.gradle\caches\transforms-3\2560936afab66f1109ad743fa536a828\transformed\jetified-play-services-base-18.2.0\AndroidManifest.xml:21:19-78
+148
+149        <meta-data
+149-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\PC\.gradle\caches\transforms-3\b1b34065a9e0fbeb945439284bc5f6a3\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+150            android:name="com.google.android.gms.version"
+150-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\PC\.gradle\caches\transforms-3\b1b34065a9e0fbeb945439284bc5f6a3\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+151            android:value="@integer/google_play_services_version" /> <!-- The activities will be merged into the manifest of the hosting app. -->
+151-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\PC\.gradle\caches\transforms-3\b1b34065a9e0fbeb945439284bc5f6a3\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+152        <activity
+152-->[com.google.android.play:core-common:2.0.2] C:\Users\PC\.gradle\caches\transforms-3\5decc44f52cecb1fc2cbf12715179215\transformed\jetified-core-common-2.0.2\AndroidManifest.xml:14:9-18:65
+153            android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity"
+153-->[com.google.android.play:core-common:2.0.2] C:\Users\PC\.gradle\caches\transforms-3\5decc44f52cecb1fc2cbf12715179215\transformed\jetified-core-common-2.0.2\AndroidManifest.xml:15:13-93
+154            android:exported="false"
+154-->[com.google.android.play:core-common:2.0.2] C:\Users\PC\.gradle\caches\transforms-3\5decc44f52cecb1fc2cbf12715179215\transformed\jetified-core-common-2.0.2\AndroidManifest.xml:16:13-37
+155            android:stateNotNeeded="true"
+155-->[com.google.android.play:core-common:2.0.2] C:\Users\PC\.gradle\caches\transforms-3\5decc44f52cecb1fc2cbf12715179215\transformed\jetified-core-common-2.0.2\AndroidManifest.xml:17:13-42
+156            android:theme="@style/Theme.PlayCore.Transparent" />
+156-->[com.google.android.play:core-common:2.0.2] C:\Users\PC\.gradle\caches\transforms-3\5decc44f52cecb1fc2cbf12715179215\transformed\jetified-core-common-2.0.2\AndroidManifest.xml:18:13-62
+157    </application>
+158
+159</manifest>
